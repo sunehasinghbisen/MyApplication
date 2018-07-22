@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdScreen">
+
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentTop="true"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="215dp"
+android:text="activity1"
+android:textAllCaps="true"
+android:textColor="@android:color/darker_gray"
+android:textSize="16dp" />
+
+
+<Button
+android:id="@+id/thirdScreenButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerInParent="true"
+android:text="Click Suneha" />
+</RelativeLayout>
